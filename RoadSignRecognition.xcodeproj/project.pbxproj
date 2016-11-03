@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB62AB1B1DC62851003F4EA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB62AB1A1DC62851003F4EA8 /* main.m */; };
+		BB62AB1E1DC62851003F4EA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB62AB1D1DC62851003F4EA8 /* AppDelegate.m */; };
+		BB62AB211DC62851003F4EA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB62AB201DC62851003F4EA8 /* ViewController.m */; };
+		BB62AB241DC62851003F4EA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB62AB221DC62851003F4EA8 /* Main.storyboard */; };
+		BB62AB261DC62851003F4EA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB62AB251DC62851003F4EA8 /* Assets.xcassets */; };
+		BB62AB291DC62851003F4EA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB62AB271DC62851003F4EA8 /* LaunchScreen.storyboard */; };
+		BB62AB321DC62871003F4EA8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB62AB311DC62871003F4EA8 /* AVFoundation.framework */; };
+		BB62AB341DC6287B003F4EA8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB62AB331DC6287B003F4EA8 /* CoreMedia.framework */; };
+		BB62AB361DC62884003F4EA8 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB62AB351DC62884003F4EA8 /* CoreFoundation.framework */; };
+		BB62AB381DC6288E003F4EA8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB62AB371DC6288E003F4EA8 /* SystemConfiguration.framework */; };
+		BB62AB3A1DC62898003F4EA8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB62AB391DC62898003F4EA8 /* MobileCoreServices.framework */; };
+		BB62AB3C1DC628A8003F4EA8 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BB62AB3B1DC628A8003F4EA8 /* libc++.tbd */; };
+		BB62AB3E1DC628B5003F4EA8 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BB62AB3D1DC628B5003F4EA8 /* libz.tbd */; };
+		BB62AB401DC628FC003F4EA8 /* CraftAROnDeviceRecognitionSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB62AB3F1DC628FC003F4EA8 /* CraftAROnDeviceRecognitionSDK.framework */; };
+		BB62AB421DC62930003F4EA8 /* CraftARResourcesODIR.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BB62AB411DC62930003F4EA8 /* CraftARResourcesODIR.bundle */; };
+		BB62AB441DC62942003F4EA8 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB62AB431DC62942003F4EA8 /* Pods.framework */; };
+		BB62AB491DC640B2003F4EA8 /* afbd55248c2e440696c4af82d7808dd0.zip in Resources */ = {isa = PBXBuildFile; fileRef = BB62AB481DC640B2003F4EA8 /* afbd55248c2e440696c4af82d7808dd0.zip */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB62AB161DC62851003F4EA8 /* RoadSignRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoadSignRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB62AB1A1DC62851003F4EA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB62AB1C1DC62851003F4EA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB62AB1D1DC62851003F4EA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB62AB1F1DC62851003F4EA8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BB62AB201DC62851003F4EA8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BB62AB231DC62851003F4EA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB62AB251DC62851003F4EA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB62AB281DC62851003F4EA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB62AB2A1DC62851003F4EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB62AB311DC62871003F4EA8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BB62AB331DC6287B003F4EA8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		BB62AB351DC62884003F4EA8 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		BB62AB371DC6288E003F4EA8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BB62AB391DC62898003F4EA8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BB62AB3B1DC628A8003F4EA8 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		BB62AB3D1DC628B5003F4EA8 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		BB62AB3F1DC628FC003F4EA8 /* CraftAROnDeviceRecognitionSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CraftAROnDeviceRecognitionSDK.framework; sourceTree = "<group>"; };
+		BB62AB411DC62930003F4EA8 /* CraftARResourcesODIR.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CraftARResourcesODIR.bundle; sourceTree = "<group>"; };
+		BB62AB431DC62942003F4EA8 /* Pods.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pods.framework; sourceTree = "<group>"; };
+		BB62AB481DC640B2003F4EA8 /* afbd55248c2e440696c4af82d7808dd0.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = afbd55248c2e440696c4af82d7808dd0.zip; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB62AB131DC62851003F4EA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB62AB3E1DC628B5003F4EA8 /* libz.tbd in Frameworks */,
+				BB62AB3C1DC628A8003F4EA8 /* libc++.tbd in Frameworks */,
+				BB62AB3A1DC62898003F4EA8 /* MobileCoreServices.framework in Frameworks */,
+				BB62AB381DC6288E003F4EA8 /* SystemConfiguration.framework in Frameworks */,
+				BB62AB361DC62884003F4EA8 /* CoreFoundation.framework in Frameworks */,
+				BB62AB341DC6287B003F4EA8 /* CoreMedia.framework in Frameworks */,
+				BB62AB441DC62942003F4EA8 /* Pods.framework in Frameworks */,
+				BB62AB401DC628FC003F4EA8 /* CraftAROnDeviceRecognitionSDK.framework in Frameworks */,
+				BB62AB321DC62871003F4EA8 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB62AB0D1DC62850003F4EA8 = {
+			isa = PBXGroup;
+			children = (
+				BB62AB481DC640B2003F4EA8 /* afbd55248c2e440696c4af82d7808dd0.zip */,
+				BB62AB431DC62942003F4EA8 /* Pods.framework */,
+				BB62AB411DC62930003F4EA8 /* CraftARResourcesODIR.bundle */,
+				BB62AB181DC62851003F4EA8 /* RoadSignRecognition */,
+				BB62AB171DC62851003F4EA8 /* Products */,
+				BB62AB301DC62871003F4EA8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BB62AB171DC62851003F4EA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB62AB161DC62851003F4EA8 /* RoadSignRecognition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB62AB181DC62851003F4EA8 /* RoadSignRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				BB62AB451DC63660003F4EA8 /* Reference images */,
+				BB62AB3F1DC628FC003F4EA8 /* CraftAROnDeviceRecognitionSDK.framework */,
+				BB62AB1C1DC62851003F4EA8 /* AppDelegate.h */,
+				BB62AB1D1DC62851003F4EA8 /* AppDelegate.m */,
+				BB62AB1F1DC62851003F4EA8 /* ViewController.h */,
+				BB62AB201DC62851003F4EA8 /* ViewController.m */,
+				BB62AB221DC62851003F4EA8 /* Main.storyboard */,
+				BB62AB251DC62851003F4EA8 /* Assets.xcassets */,
+				BB62AB271DC62851003F4EA8 /* LaunchScreen.storyboard */,
+				BB62AB2A1DC62851003F4EA8 /* Info.plist */,
+				BB62AB191DC62851003F4EA8 /* Supporting Files */,
+			);
+			path = RoadSignRecognition;
+			sourceTree = "<group>";
+		};
+		BB62AB191DC62851003F4EA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB62AB1A1DC62851003F4EA8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB62AB301DC62871003F4EA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB62AB3D1DC628B5003F4EA8 /* libz.tbd */,
+				BB62AB3B1DC628A8003F4EA8 /* libc++.tbd */,
+				BB62AB391DC62898003F4EA8 /* MobileCoreServices.framework */,
+				BB62AB371DC6288E003F4EA8 /* SystemConfiguration.framework */,
+				BB62AB351DC62884003F4EA8 /* CoreFoundation.framework */,
+				BB62AB331DC6287B003F4EA8 /* CoreMedia.framework */,
+				BB62AB311DC62871003F4EA8 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB62AB451DC63660003F4EA8 /* Reference images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Reference images";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB62AB151DC62851003F4EA8 /* RoadSignRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB62AB2D1DC62851003F4EA8 /* Build configuration list for PBXNativeTarget "RoadSignRecognition" */;
+			buildPhases = (
+				BB62AB121DC62851003F4EA8 /* Sources */,
+				BB62AB131DC62851003F4EA8 /* Frameworks */,
+				BB62AB141DC62851003F4EA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoadSignRecognition;
+			productName = RoadSignRecognition;
+			productReference = BB62AB161DC62851003F4EA8 /* RoadSignRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB62AB0E1DC62850003F4EA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "David Lashkhi";
+				TargetAttributes = {
+					BB62AB151DC62851003F4EA8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2CKNNNH7SR;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BB62AB111DC62850003F4EA8 /* Build configuration list for PBXProject "RoadSignRecognition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB62AB0D1DC62850003F4EA8;
+			productRefGroup = BB62AB171DC62851003F4EA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB62AB151DC62851003F4EA8 /* RoadSignRecognition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB62AB141DC62851003F4EA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB62AB491DC640B2003F4EA8 /* afbd55248c2e440696c4af82d7808dd0.zip in Resources */,
+				BB62AB421DC62930003F4EA8 /* CraftARResourcesODIR.bundle in Resources */,
+				BB62AB291DC62851003F4EA8 /* LaunchScreen.storyboard in Resources */,
+				BB62AB261DC62851003F4EA8 /* Assets.xcassets in Resources */,
+				BB62AB241DC62851003F4EA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB62AB121DC62851003F4EA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB62AB211DC62851003F4EA8 /* ViewController.m in Sources */,
+				BB62AB1E1DC62851003F4EA8 /* AppDelegate.m in Sources */,
+				BB62AB1B1DC62851003F4EA8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB62AB221DC62851003F4EA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB62AB231DC62851003F4EA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB62AB271DC62851003F4EA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB62AB281DC62851003F4EA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB62AB2B1DC62851003F4EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB62AB2C1DC62851003F4EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB62AB2E1DC62851003F4EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2CKNNNH7SR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RoadSignRecognition",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = RoadSignRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catchoom.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB62AB2F1DC62851003F4EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2CKNNNH7SR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RoadSignRecognition",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = RoadSignRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catchoom.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB62AB111DC62850003F4EA8 /* Build configuration list for PBXProject "RoadSignRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB62AB2B1DC62851003F4EA8 /* Debug */,
+				BB62AB2C1DC62851003F4EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB62AB2D1DC62851003F4EA8 /* Build configuration list for PBXNativeTarget "RoadSignRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB62AB2E1DC62851003F4EA8 /* Debug */,
+				BB62AB2F1DC62851003F4EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB62AB0E1DC62850003F4EA8 /* Project object */;
+}
